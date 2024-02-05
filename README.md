@@ -1,20 +1,4 @@
-# 1조_OnedaySeed
-#### 원데이 클래스는 말 그대로, 하루동안 배울 수 있는 수업을 말합니다.
-#### 그 동안 배우고 싶었던 다양한 취미 활동을 원데이 클래스로 체험해보세요!
-#### OnedaySeed를 통해 다양한 취미 수업을 등록하고(Host), 등록된 수업(User)을 수강할 수 있습니다.
-
-# 현재 상황
-- [x] SpringBoot, React 연동
-- [x] MySQL 연결
-- [x] 마이 페이지(User)
-- [x] 장바구니
----
-- [ ] 로그인
-- [ ] 회원가입
-- [ ] 구매내역
-- [ ] 마이 페이지(Host)
-- [ ] 클래스 관리 페이지
-- [ ] 결제하기
+![image](https://github.com/areum1111/onedaySeed/assets/148032221/f2407ec2-07f0-45a1-af5e-0fd4ad8e914f)
 
 # 주요 기능
 1. 원데이 클래스 등록 (Host)
@@ -28,19 +12,34 @@
 [솜씨당](https://www.sssd.co.kr/main)
 
 # 개발 환경
-HTML5, CSS, JavaScript, JAVA, SpringBoot, Gradle, React, MySQL, JPA, IntelliJ, VS Code, TomeCat, AWS
+Back-end : IntelliJ Community, JAVA(v. 17), SpringBoot(v. 3.1.7), MySQL(V. 8.0.35), TomCat(v. 9.0.8), Gradle, JPA
+
+Front-end : VSCode, HTML5, CSS, JavaScript, React, NodeJs, npm, React-Bootstrap(v. 2.10.0)
+
+그 외 : AWS, MobaXTerm, GitHub
+![image](https://github.com/areum1111/onedaySeed/assets/148032221/5324c56c-dcfc-45a9-8ec7-54b3a88d2d34)
+
+
 
 # 역할 분담
-1. 팀장 - 이아름 : 마이 페이지 (User - 조회, 수정), 장바구니 페이지(조회, 수정, 삭제), 결제하기, 도메인 등록
-2. 팀원 - 박은영 : 메인 페이지 (클래스 카테고리), 로그인 페이지, 회원가입 페이지(등록), 구매내역(조회, 삭제)
-3. 팀원 - 허형석 : 마이 페이지 (Host - 조회, 수정), 클래스 관리 페이지 (상세 페이지 - 등록, 조회, 수정, 삭제)
+1. 팀장 - 이아름 : 마이 페이지(User, Host - 프로필 수정 및 삭제), 장바구니 페이지(담기, 조회, 수정, 삭제),
+   클래스 페이지(BE / User, Host 페이지), 결제하기, 주문내역
+3. 팀원 - 박은영 : 메인 페이지 (클래스 카테고리, 클래스 적합도 검사), 소개 페이지, 검색 기능, 로그인 페이지, 회원가입 페이지(암호화),
+   사업자번호 확인 국세청 API 연결, CSS 
+5. 팀원 - 허형석 : 클래스 페이지(FE / User, Host 페이지), 파일 업로드, AWS
 
 # 스케줄
-![image](https://github.com/areum1111/onedaySeed/assets/148032221/6971e602-8134-4c2f-9442-7c80e5ea4224)
+![image](https://github.com/areum1111/onedaySeed/assets/148032221/307ada1e-f901-476e-8b02-b68731ec6087)
+
 
 # 사이트맵
-![image](https://github.com/areum1111/onedaySeed/assets/148032221/94a3177a-6470-4ff4-aa8a-1616f27ae226)
-![image](https://github.com/areum1111/onedaySeed/assets/148032221/6e9a110e-6239-48a7-9033-089b20e970f6)
+![image](https://github.com/areum1111/onedaySeed/assets/148032221/8b67e532-e34a-42cc-bcf8-d2f6e38622fe)
+
+# Mapping 주소
+![image](https://github.com/areum1111/onedaySeed/assets/148032221/872eafd4-d98d-4768-8999-4b208271714a)
 
 # ERD
-![image](https://github.com/areum1111/onedaySeed/assets/148032221/dcb1ff5b-ae58-4a0f-9f39-95bd31102a46)
+![image](https://github.com/areum1111/onedaySeed/assets/148032221/d448411f-e1d6-4815-9d74-ecd6ef0f7215)
+
+# 테이블 정의서
+![image](https://github.com/areum1111/onedaySeed/assets/148032221/dee6c326-11f2-4a8f-9b33-7c29eae43563)
